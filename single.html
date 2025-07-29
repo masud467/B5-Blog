@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Blog With Bootstrap 5</title>
+  </head>
+  <body>
+    <!-- Navbar section -->
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">B5 Blog</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Section  -->
+    <div class="container my-4">
+      <img
+        src="./images/24.jpg"
+        class="object-fit-cover w-100 rounded-1"
+        style="height: 250px; object-position: center"
+        alt=""
+      />
+    </div>
+    <main class="container my-4">
+      <div class="row">
+        <!-- Article List -->
+        <div class="col-lg-8">
+          <h3 class="text-capitalize">Title of the articles</h3>
+          <article class="">
+            <h3>Introduction</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit cumque voluptate quo nisi obcaecati necessitatibus?
+            </p>
+            <h3>Table of Contents</h3>
+            <ul>
+              <a href="#"><li>Item One</li></a>
+              <a href="#"><li>Item Two</li></a>
+              <a href="#"><li>Item Three</li></a>
+            </ul>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. In iusto
+              voluptatum mollitia veniam necessitatibus sed voluptate voluptatem
+              cupiditate reiciendis. Deserunt.
+            </p>
+            <h3>Item One</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+              odit vitae earum placeat assumenda! Quia!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur, autem! Aperiam quia et voluptatem accusantium, cum
+              magnam modi fuga. Numquam id delectus reprehenderit laborum qui
+              quasi, pariatur quaerat, rerum doloribus repudiandae tenetur quia
+              veritatis. Excepturi maiores et delectus cum harum!
+            </p>
+            <img
+              src="./images/19.jpg"
+              class="object-fit-cover w-50 rounded-1"
+              style="height: 250px; object-position: center"
+              alt=""
+            />
+            <h3 class="mt-3">Item Two</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+              odit vitae earum placeat assumenda! Quia!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur, autem! Aperiam quia et voluptatem accusantium, cum
+              magnam modi fuga. Numquam id delectus reprehenderit laborum qui
+              quasi, pariatur quaerat, rerum doloribus repudiandae tenetur quia
+              veritatis. Excepturi maiores et delectus cum harum!
+            </p>
+            <img
+              src="./images/3.jpg"
+              class="object-fit-cover w-50 rounded-1"
+              style="height: 250px; object-position: center"
+              alt=""
+            />
+            <h3 class="mt-3">Item Three</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+              odit vitae earum placeat assumenda! Quia!
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur, autem! Aperiam quia et voluptatem accusantium, cum
+              magnam modi fuga. Numquam id delectus reprehenderit laborum qui
+              quasi, pariatur quaerat, rerum doloribus repudiandae tenetur quia
+              veritatis. Excepturi maiores et delectus cum harum!
+            </p>
+            <img
+              src="./images/15.jpg"
+              class="object-fit-cover w-50 rounded-1"
+              style="height: 250px; object-position: center"
+              alt=""
+            />
+            <h3 class="mt-4">Conclusion</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel obcaecati ipsum atque omnis laborum quam. Ipsum nulla error eius necessitatibus!</p>
+          </article>
+        </div>
+        <!-- Right Sidebar -->
+        <div class="col-lg-4">
+          <h3>Advertisement</h3>
+          <div class="mt-4">
+            <img
+              src="./images/2.jpg"
+              alt="Advertisement"
+              class="w-100 h-auto rounded-1"
+            />
+          </div>
+          <h3 class="mt-5">Popular Articles</h3>
+          <ul class="list-group list-group-flush mt-3">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- Footer section -->
+    <footer class="w-full bg-dark">
+      <div class="container text-white">
+        <div class="row py-5 align-items-center">
+          <div class="col-lg-6">
+            <h1>Bootstrap5 -Blog</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed,
+              labore repellat nulla vitae sint, incidunt iusto magni laboriosam
+              velit ipsum illo. Veniam soluta saepe facere similique molestiae,
+              architecto quod non!
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex gap-3">
+              <a class="text-secondary text-decoration-none" href="#">About</a>
+              <a class="text-secondary text-decoration-none" href="#"
+                >Contact</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
